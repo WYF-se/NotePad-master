@@ -13,7 +13,7 @@ private static final String[] PROJECTION = new String[] {
        	 //NotePad.Notes.FLAG,
   };
   ```
-  ##### 利用Cursor查询到数据库的具体内容然后利用SimpleAdapter显示在页面上
+  ###### 利用Cursor查询到数据库的具体内容然后利用SimpleAdapter显示在页面上
 ```
 Cursor cursor = managedQuery(
             getIntent().getData(),            // Use the default content URI for the provider.
@@ -35,6 +35,8 @@ Cursor cursor = managedQuery(
     );
     // Sets the ListView's adapter to be the cursor adapter that was just created.
     setListAdapter(adapter);
-    ```
+ ```
     
-    ### 基本功能二：根据标题查询笔记
+  ### 基本功能二：根据标题查询笔记
+###### 点击搜索图标进入搜索页面
+(https://github.com/WYF-se/NotePad-master/搜索页面.png)
