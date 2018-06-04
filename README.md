@@ -1,9 +1,9 @@
 # NotePad
-              期中实验
-              基本功能一：NoteList中显示条目增加时间戳
-              (https://github.com/WYF-se/NotePad-master/时间戳.png)
-              时间戳所用技术与源码 
-              其中更改了PROJECTION的具体参数：增加了修改时间的变量
+## 期中实验
+### 基本功能一：NoteList中显示条目增加时间戳
+(https://github.com/WYF-se/NotePad-master/时间戳.png)
+#### 时间戳所用技术与源码 
+###### 其中更改了PROJECTION的具体参数：增加了修改时间的变量
 ```
 private static final String[] PROJECTION = new String[] {
 
@@ -13,7 +13,7 @@ private static final String[] PROJECTION = new String[] {
        	 //NotePad.Notes.FLAG,
   };
   ```
-              利用Cursor查询到数据库的具体内容然后利用SimpleAdapter显示在页面上
+  ##### 利用Cursor查询到数据库的具体内容然后利用SimpleAdapter显示在页面上
 ```
 Cursor cursor = managedQuery(
             getIntent().getData(),            // Use the default content URI for the provider.
@@ -36,4 +36,5 @@ Cursor cursor = managedQuery(
     // Sets the ListView's adapter to be the cursor adapter that was just created.
     setListAdapter(adapter);
     ```
-               实验二
+    
+    ### 基本功能二：根据标题查询笔记
