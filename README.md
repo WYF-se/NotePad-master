@@ -115,5 +115,5 @@ public boolean onQueryTextChange(String newText) {
 ##### 2)搜索笔记：
 https://github.com/WYF-se/NotePad-master/blob/master/app/src/main/java/com/example/android/notepad/SearchActivity.java
 ##### 布局文件：
-（https://github.com/WYF-se/NotePad-master/app/src/main/res/layout/list_search.xml）
+https://github.com/WYF-se/NotePad-master/blob/master/app/src/main/res/layout/list_search.xml
 （https://github.com/WYF-se/NotePad-master/app/src/main/res/menu/list_options_menu.xml）
