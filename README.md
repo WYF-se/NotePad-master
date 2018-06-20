@@ -39,7 +39,7 @@ Cursor cursor = managedQuery(
     
   ### 基本功能二：根据标题查询笔记
 ###### 点击搜索图标进入搜索页面，实行动态搜索，点击搜索内容进入具体内容页面
-(https://github.com/WYF-se/NotePad-master/搜索页面.png)
+https://github.com/WYF-se/NotePad-master/blob/master/搜索页面.png
 #### 所用技术与源码
 ###### 搜索的实现新增了继承ListActivity的Search类，增加了具体的新的页面与动态搜索的功能。 仍然使用PROJECTION作为数据库显示的内容：
 ```
